@@ -1,0 +1,36 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth-item {
+  margin-left: 10px;
+}
+
+header img {
+  width: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.logo_text {
+  text-decoration: none;
+  color: 	#00BFFF;
+  font-size: 22px;
+}
+
+.logo_text h2{
+  margin: 0;
+}

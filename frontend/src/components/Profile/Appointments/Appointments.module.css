@@ -1,0 +1,15 @@
+.appointments {
+  grid-area: appointments;
+  display: flex;
+  flex-direction: column;
+}
+
+.appointments_header {
+  text-align: center;
+  color: #7e7e7e;
+  font-size: 24px;
+  line-height: 30px;
+  min-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

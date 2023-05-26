@@ -1,0 +1,45 @@
+.content {
+  grid-area: content;
+  display: grid;
+  grid-template-rows: 300px 300px 1fr;
+  grid-template-columns: 20% 1fr;
+  grid-template-areas:
+    "bg bg"
+    "ava bio"
+    "appointments appointments";
+  background-color: #f8f9fa;
+}
+
+.content img {
+  width: 100%;
+}
+
+.background {
+  grid-area: bg;
+}
+
+.background_image {
+  max-height: 100%;
+}
+
+.bio {
+  grid-area: bio;
+}
+
+.bio_title {
+  color: #7e7e7e;
+  font-size: 24px;
+}
+
+.ava {
+  grid-area: ava;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1440px) {
+  .content {
+    grid-template-rows: 150px 1fr 1fr;
+  }
+}

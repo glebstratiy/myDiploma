@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content_header {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+
+.title {
+  color: #7e7e7e;
+  font-size: 24px;
+  line-height: 30px;
+  min-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 5px solid #5cd2e3;
+}
+
+.bio {
+  text-align: center;
+}
+
+.bio_title {
+  color: #7e7e7e;
+  font-size: 24px;
+  line-height: 30px;
+  min-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bio_text {
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: start;
+}
